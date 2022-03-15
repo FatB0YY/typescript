@@ -7,9 +7,12 @@ const msg: string = 'Hello TS'
 
 const numberArray: number[] = [1, 1, 2, 3, 8, 13]
 const numberArray2: Array<number> = [1, 1, 2, 3, 8, 13]
+const numberArray3: Array<number | string> = [1, 1, '2', 3, 8, 13]
 
 // Tuple
 const contact: [string, number] = ['Name', 12345678]
+const array: (number | string)[] = ['Name', 12345678]
+const numberArray4: [number, string, ...boolean[]] = [1, '2', true, false, true]
 
 // Any
 let variable: any = 42
